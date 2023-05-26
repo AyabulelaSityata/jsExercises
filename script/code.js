@@ -57,7 +57,7 @@ fullName(studentName);
 
 
 Question 2
-*/
+
 let person = {
     firstName: 'Ayabulela',
     lastName: 'Sityata',
@@ -85,3 +85,24 @@ let homeAddress = {
 
 console.log(homeAddress.streetName, homeAddress.streetNumber, homeAddress.suburb, homeAddress.city, homeAddress.countryName);
 
+Question 3
+*/
+function btnDisplay(){
+    let number1 = document.querySelector("#number1").value
+    let number2 = document.querySelector("#number2").value
+    let operator = document.querySelector("#operator").value
+    let result = document.querySelector("#ds-result")
+
+    if (operator == "+"){
+        result.innerText = number1 + number2;
+
+    }else if (operator == "-"){
+        result.innerText = number1 - number2;
+
+    }else if (operator == "*"){
+        result.innerText = number1 * number2;
+
+    }else if (operator == "/"){
+        result.innerText = number1 / number2;
+    }
+}
