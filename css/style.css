@@ -1,0 +1,21 @@
+.form {
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(112, 194, 184);
+    margin: auto;
+    width: 20rem;
+    margin-top: 15rem;
+    padding: 1rem;
+   border-radius: 1rem;
+}
+body{
+    height: 100vh;
+}
+
+.number1, .operator, .number2, .result {
+    padding: 1rem;
+}
+
+button:hover{
+    
+}
